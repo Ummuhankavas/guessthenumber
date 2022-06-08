@@ -1,0 +1,44 @@
+
+body {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./img/question-mark-gbb6b46119_1920.jpg);
+    background-position: fixed;
+    background-size: 100%;
+    
+}
+h2{
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(31, 140, 156);
+    box-shadow: 3px 5px 5px rgba(232, 232, 19, 0.5);
+    padding: 3rem;
+    position: fixed;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    color: white;
+}
+
+input{
+    height: 2rem;
+    width: 10rem;
+}
+
+button{
+    background-color: red;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
